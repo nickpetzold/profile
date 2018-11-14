@@ -1,0 +1,122 @@
+body {
+    color: rgb(80, 80, 80);
+    background-image: url('images/background_photo2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.section-white {
+    padding: 20px;
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 800px;
+    margin: 20px auto;
+}
+
+#section-top.section-white {
+  padding: 0px;
+  width: 840px;
+  margin-top: 0px;
+}
+
+#section-photos {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url('images/cover_photo2.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+
+#section-info {
+    padding: 20px;
+}
+
+.place-name {
+  margin: 0px;
+}
+
+#favourite-places.section-white {
+  padding: 10px;
+  width: 820px;
+}
+
+#about-this-page.section-white {
+  padding: 10px;
+  width: 820px;
+  text-align: center;
+}
+
+#about-title {
+  text-align: left;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+
+#about-content {
+  text-align: center;
+}
+
+td {
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.list-inline li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 20px;
+}
+
+.list-inline {
+  text-align: center;
+  padding: 0px;
+}
+
+.img-favourite-place {
+    height: 140px;
+    width: 140px;
+}
+
+#cover-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+    margin: 0px;
+}
+
+#img-profile {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 260px;
+    left: 330px;
+    border-radius: 50%;
+}
+
+#section-info {
+   text-align: center;
+   padding-top: 50px;
+}
